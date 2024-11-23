@@ -26,7 +26,7 @@ app.use("/api/survey", surveyRoutes); // Mental health survey
 app.use("/api/psych", psychologistRoutes); // Psychologist finder
 app.use("/api/journal", journalRoutes); // Journal analysis
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });

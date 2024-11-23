@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Ekspose port yang digunakan aplikasi (default Express biasanya 8080)
-EXPOSE 3000
+EXPOSE 8080
 
 # Tentukan command untuk menjalankan aplikasi
 CMD ["node", "server.js"]
